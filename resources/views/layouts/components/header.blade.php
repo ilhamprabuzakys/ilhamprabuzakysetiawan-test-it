@@ -81,10 +81,10 @@
                                     </span>
                                 </div>
                                 <div class="flex-grow-1">
-                                    <h6 class="mb-1">Your order is placed</h6>
+                                    <h6 class="mb-1">Data Karyawan baru berhasil ditambahkan!</h6>
                                     <div class="font-size-13 text-muted">
-                                        <p class="mb-1">If several languages coalesce the grammar</p>
-                                        <p class="mb-0"><i class="mdi mdi-clock-outline"></i> <span>3 min ago</span></p>
+                                        <p class="mb-1">Cek halaman karyawan untuk melihat detailnya.</p>
+                                        <p class="mb-0"><i class="mdi mdi-clock-outline"></i> <span>1 min ago</span></p>
                                     </div>
                                 </div>
                             </div>
@@ -97,9 +97,9 @@
                                     </span>
                                 </div>
                                 <div class="flex-grow-1">
-                                    <h6 class="mb-1">Your item is shipped</h6>
+                                    <h6 class="mb-1">Selamat kamu berhasil login</h6>
                                     <div class="font-size-13 text-muted">
-                                        <p class="mb-1">If several languages coalesce the grammar</p>
+                                        <p class="mb-1">Silahkan gunakan aplikasi kami dengan sepenuh hati.</p>
                                         <p class="mb-0"><i class="mdi mdi-clock-outline"></i> <span>3 min ago</span></p>
                                     </div>
                                 </div>
@@ -136,11 +136,6 @@
                         <h6 class="mb-0">{{ auth()->user()->name }}</h6>
                         <p class="mb-0 font-size-11 text-muted">{{ auth()->user()->email }}</p>
                     </div>
-                    <a class="dropdown-item" href="contacts-profile.html"><i class="mdi mdi-account-circle text-muted font-size-16 align-middle me-1"></i> <span class="align-middle">Profile</span></a>
-                    <a class="dropdown-item" href="pages-faqs.html"><i class="mdi mdi-lifebuoy text-muted font-size-16 align-middle me-1"></i> <span class="align-middle">Help</span></a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#"><i class="mdi mdi-wallet text-muted font-size-16 align-middle me-1"></i> <span class="align-middle">Saldo : <b>Rp. 2.000.000</b></span></a>
-                    <a class="dropdown-item d-flex align-items-center" href="#"><i class="mdi mdi-cog-outline text-muted font-size-16 align-middle me-1"></i> <span class="align-middle">Settings</span><span class="badge badge-soft-success ms-auto">New</span></a>
                     <form action="{{ route('logout') }}" method="post">
                         @csrf
                         <button type="submit" class="dropdown-item bg-transparent border-0 text-muted"><i class="mdi mdi-lock text-muted font-size-16 align-middle me-1"></i><span

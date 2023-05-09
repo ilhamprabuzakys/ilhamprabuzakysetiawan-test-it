@@ -1,11 +1,7 @@
 <?php
 
-use App\Http\Controllers\HelperController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\KaryawanController;
-use App\Http\Controllers\KecamatanController;
-use App\Http\Controllers\KotaController;
-use App\Http\Controllers\SiswaController;
 use App\Http\Controllers\UserController;
 use App\Http\Middleware\IsAdmin;
 use Illuminate\Support\Facades\Route;
@@ -19,7 +15,7 @@ Route::middleware('auth')->group(function () {
 });
 
 
-Route::middleware(['auth', IsAdmin::class])->group(function () {
-    Route::get('/users/grid', [UserController::class, 'grid'])->name('users.grid');
-    Route::resource('/users', UserController::class);
-});
+// Route::middleware(['auth', IsAdmin::class])->group(function () {
+//     Route::get('/users/grid', [UserController::class, 'grid'])->name('users.grid');
+//     Route::resource('/users', UserController::class);
+// });
