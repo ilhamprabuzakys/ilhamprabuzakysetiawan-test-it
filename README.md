@@ -1,3 +1,13 @@
+## SOAL 1 dan 2 ada di folder SOAL-ILHAM PRABU ZAKY SETIAWAN
+
+### Jika Bapak mau mereview dan menjalankan aplikasi saya di local maka bapak ikuti langkah berikut :
+- Pastikan menggunakan DB MYSQL
+- Jalankan perintah composer install
+- copy isi file .env.example lalu buat file .env pada root direktori dan pastekan kode tadi padanya
+
+<hr>
+<br>
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
@@ -7,12 +17,7 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## SOAL 1 dan 2 ada di folder SOAL-ILHAM
 
-## Jika Bapak mau mereview dan menjalankan aplikasi saya di local maka bapak ikuti langkah berikut :
-- Pastikan menggunakan DB MYSQL
-- Jalankan perintah composer install
-- copy isi file .env.example lalu buat file .env pada root direktori dan pastekan kode tadi padanya
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
